@@ -13,5 +13,6 @@
   <img alt="androidstudio" src="https://img.shields.io/badge/-androidstudio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white" />
   <img alt="delphi" src="https://img.shields.io/badge/-delphi-E62431?style=flat-square&logo=delphi&logoColor=white" />
   <img alt="centos" src="https://img.shields.io/badge/-centos-262577?style=flat-square&logo=centos&logoColor=white" />  
+  <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
 </p>
 <h3>Open source projects</h3>
