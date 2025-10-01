@@ -5,7 +5,7 @@
   학교, 광주광역시교육청, 교육부 산하기관의 홈페이지 제작 및 유지보수를 담당하는<br>
   <strong>엑스메카</strong>에서 근무하고 있습니다.
 </p>
-<h3>Things I code with</h3>
+<h3>업무처리 능력</h3>
 <p>
   <img alt="php" src="https://img.shields.io/badge/-php-777BB4?style=flat-square&logo=PHP&logoColor=white" />
   <img alt="mysql" src="https://img.shields.io/badge/-mysql-8DD6F9?style=flat-square&logo=mysql&logoColor=white" /> 
@@ -17,4 +17,5 @@
   <img alt="delphi" src="https://img.shields.io/badge/-delphi-E62431?style=flat-square&logo=delphi&logoColor=white" />
   <img alt="centos" src="https://img.shields.io/badge/-centos-262577?style=flat-square&logo=centos&logoColor=white" />  
   <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img alt="phpmyadmin" src="https://img.shields.io/badge/-phpmyadmin-6C78AF?style=flat-square&logo=phpmyadmin&logoColor=white" />
 </p>
