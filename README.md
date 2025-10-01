@@ -10,7 +10,6 @@
   <img alt="Java" src="https://img.shields.io/badge/-Java-1a73e8?style=flat-square&logo=Java&logoColor=white" />
   <img alt="jQuery" src="https://img.shields.io/badge/-jQuery-007ACC?style=flat-square&logo=jQuery&logoColor=white" />
   <img alt="autohotkey" src="https://img.shields.io/badge/-autohotkey-334455?style=flat-square&logo=autohotkey&logoColor=white" />
-  <img alt="autohotkey" src="https://img.shields.io/badge/-autohotkey-334455?style=flat-square&logo=autohotkey&logoColor=white" />
   <img alt="androidstudio" src="https://img.shields.io/badge/-androidstudio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white" />
   <img alt="delphi" src="https://img.shields.io/badge/-delphi-E62431?style=flat-square&logo=delphi&logoColor=white" />
   <img alt="centos" src="https://img.shields.io/badge/-centos-262577?style=flat-square&logo=centos&logoColor=white" />  
