@@ -18,4 +18,5 @@
   <img alt="centos" src="https://img.shields.io/badge/-centos-262577?style=flat-square&logo=centos&logoColor=white" />  
   <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
   <img alt="phpmyadmin" src="https://img.shields.io/badge/-phpmyadmin-6C78AF?style=flat-square&logo=phpmyadmin&logoColor=white" />
+  <img alt="mariadb" src="https://img.shields.io/badge/-mariadb-003545?style=flat-square&logo=mariadb&logoColor=white" />
 </p>
