@@ -1,11 +1,27 @@
-# Don't commit system files or dependencies
-*.DS_Store
-node_modules/
-vendor/bundle
+# Bundler cache
+.bundle
+vendor
+Gemfile.lock
 
-# Ensure Hugo builds aren't committed to Git
-public/
-site/public/
-dist/
-.tmp/
-_site/
+# Jekyll cache
+.jekyll-cache
+.jekyll-metadata
+_site
+
+# RubyGems
+*.gem
+
+# NPM dependencies
+node_modules
+package-lock.json
+
+# IDE configurations
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# Misc
+_sass/vendors
+assets/js/dist
