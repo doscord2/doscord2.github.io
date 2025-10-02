@@ -1,23 +1,34 @@
-<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> 안녕하세요 </h1>
+# 원페이지 HTML 템플릿 이력서
 
-<p>
-  저는 PHP 개발자 김민호입니다. 현재 광주광역시에 거주하고 있으며,<br>
-  학교, 광주광역시교육청, 교육부 산하기관의 홈페이지 제작 및 유지보수를 담당하는<br>
-  <strong>엑스메카</strong>에서 근무하고 있습니다.
-</p>
-<h3>업무처리 능력</h3>
-<p>
-  <img alt="php" src="https://img.shields.io/badge/-php-777BB4?style=flat-square&logo=PHP&logoColor=white" />
-  <img alt="mysql" src="https://img.shields.io/badge/-mysql-8DD6F9?style=flat-square&logo=mysql&logoColor=white" /> 
-  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-46a2f1?style=flat-square&logo=JavaScript&logoColor=white" />
-  <img alt="Java" src="https://img.shields.io/badge/-Java-1a73e8?style=flat-square&logo=Java&logoColor=white" />
-  <img alt="jQuery" src="https://img.shields.io/badge/-jQuery-007ACC?style=flat-square&logo=jQuery&logoColor=white" />
-  <img alt="autohotkey" src="https://img.shields.io/badge/-autohotkey-334455?style=flat-square&logo=autohotkey&logoColor=white" />
-  <img alt="androidstudio" src="https://img.shields.io/badge/-androidstudio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white" />
-  <img alt="delphi" src="https://img.shields.io/badge/-delphi-E62431?style=flat-square&logo=delphi&logoColor=white" />
-  <img alt="centos" src="https://img.shields.io/badge/-centos-262577?style=flat-square&logo=centos&logoColor=white" />  
-  <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img alt="phpmyadmin" src="https://img.shields.io/badge/-phpmyadmin-6C78AF?style=flat-square&logo=phpmyadmin&logoColor=white" />
-  <img alt="mariadb" src="https://img.shields.io/badge/-mariadb-003545?style=flat-square&logo=mariadb&logoColor=white" />
-  <img alt="springboot" src="https://img.shields.io/badge/-springboot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-</p>
+![예시이미지](ex-img.png)
+
+
+
+**순서**
+
+git을 이용한만큼 git명령어를 좀 알아야한다. 어렵지 않다
+
+깃이 설치되어있고, 노드가 설치되어있다는 가정하에 설명하도록 하겠다.
+
+1. 터미널에 저장하고 싶은 경로로 이동
+
+   잘모르겠다면…… cli명령어 포스팅으로 이동해서 공부해보자 
+
+   [CLI명령어 포스팅으로 이동하기](https://tuhbm.github.io/2017/07/17/cli/)
+
+2. git clone 하기 어렵지않다…그냥 복붙하는 것이라고 생각하면 된다.
+    
+    **git clone https://github.com/tuhbm/onePage_resume.git**
+    
+    이렇게 입력하면 끝!!!
+    
+3. 그리고 텍스트 수정 및 이력서 사진 변경
+4. 세부 css변경은 minify 해 놓은 파일을 beautify기능이 있는 에디터 또는 밑에 사이트에서
+
+    [css mifify 변경하기](http://www.cleancss.com/css-beautify/)
+    
+    변경하여 사용하기
+    
+ 끝!!!
+        
+
