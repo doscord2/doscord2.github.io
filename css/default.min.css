@@ -473,3 +473,61 @@ footer .inner_footer{
   font-size: 25px;
   word-break: keep-all;
 }
+
+/* 모바일 대응 미디어 쿼리 */
+@media (max-width: 768px) {
+  #wrap {
+    width: 100%;
+    padding: 50px 10px 0;
+    border-width: 1px;
+  }
+  
+  .inner_intro, .inner_skill {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .box_info .my_info h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .box_info .my_info .job,
+  .box_info .my_info .birth,
+  .txt_date,
+  .txt_info,
+  .txt_sub {
+    font-size: 16px;
+  }
+
+  .area_profile .box_info,
+  .area_profile .box_contact {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .area_profile .box_info .my_photo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .area_career li.list_flex {
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+    background-position: 20px -9px;
+  }
+
+  .date_box {
+    flex: none;
+    width: auto;
+    font-size: 14px;
+  }
+
+  .text_box {
+    flex: none;
+    width: 100%;
+  }
+}
