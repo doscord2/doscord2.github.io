@@ -432,3 +432,44 @@ footer .inner_footer{
     text-align:center;
     font-size:15px
 }
+/* 새로 추가될 Flex 스타일 */
+.area_career li.list_flex {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 10px 0 10px 50px;
+  background-image: url("../img/bg_list_middle.png");
+  background-position: 280px -9px;
+  background-repeat: no-repeat;
+  background-size: 30px auto;
+  flex-wrap: wrap;
+}
+
+.area_career li.list_flex:first-child {
+  background-image: url("../img/bg_list_first.png");
+  background-position: 280px 11px;
+}
+
+.area_career li.list_flex:last-child {
+  background-image: url("../img/bg_list_last.png");
+  background-position: 280px -34px;
+}
+
+.date_box {
+  flex: 0 0 220px;
+}
+
+.txt_date {
+  font-size: 25px;
+}
+
+.text_box {
+  flex: 1;
+  min-width: 0;
+}
+
+.txt_info, .txt_sub {
+  display: block;
+  font-size: 25px;
+  word-break: keep-all;
+}
