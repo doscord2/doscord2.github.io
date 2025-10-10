@@ -1,121 +1,24 @@
-<<<<<<< HEAD
-# 원페이지 HTML 템플릿 이력서
+<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> 안녕하세요 </h1>
 
-![예시이미지](ex-img.png)
+<p>
+  저는 PHP 개발자 김민호입니다. 현재는 광주광역시에 거주하고 있으며,<br>
+  학교, 광주광역시교육청등 공공기관의 홈페이지 제작 및 유지보수를 담당하는 회사에서 근무중입니다.<br>
+  개발 직무를 수행하기 위해 개발자로서 필요한 핵심 역량은 <strong>문제해결 능력, 의사소통 및 팀워크라</strong> 생각합니다.
 
-
-
-**순서**
-
-git을 이용한만큼 git명령어를 좀 알아야한다. 어렵지 않다
-
-깃이 설치되어있고, 노드가 설치되어있다는 가정하에 설명하도록 하겠다.
-
-1. 터미널에 저장하고 싶은 경로로 이동
-
-   잘모르겠다면…… cli명령어 포스팅으로 이동해서 공부해보자 
-
-   [CLI명령어 포스팅으로 이동하기](https://tuhbm.github.io/2017/07/17/cli/)
-
-2. git clone 하기 어렵지않다…그냥 복붙하는 것이라고 생각하면 된다.
-    
-    **git clone https://github.com/tuhbm/onePage_resume.git**
-    
-    이렇게 입력하면 끝!!!
-    
-3. 그리고 텍스트 수정 및 이력서 사진 변경
-4. 세부 css변경은 minify 해 놓은 파일을 beautify기능이 있는 에디터 또는 밑에 사이트에서
-
-    [css mifify 변경하기](http://www.cleancss.com/css-beautify/)
-    
-    변경하여 사용하기
-    
- 끝!!!
-        
-
-=======
-<!-- markdownlint-disable-next-line -->
-<div align="center">
-
-  <!-- markdownlint-disable-next-line -->
-  # Chirpy Jekyll Theme
-
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
-
-  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
-  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
-  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
-
-  [**Live Demo** →][demo]
-
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
-
-</div>
-
-## Features
-
-- Dark Theme
-- Localized UI language
-- Pinned Posts on Home Page
-- Hierarchical Categories
-- Trending Tags
-- Table of Contents
-- Last Modified Date
-- Syntax Highlighting
-- Mathematical Expressions
-- Mermaid Diagrams & Flowcharts
-- Dark Mode Images
-- Embed Media
-- Comment Systems
-- Built-in Search
-- Atom Feeds
-- PWA
-- Web Analytics
-- SEO & Performance Optimization
-
-## Documentation
-
-To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
-
-## Contributing
-
-Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
-to learn, inspire, and create. Any contributions you make are greatly appreciated.
-For details, see the "[Contributing Guidelines][contribute-guide]".
-
-## Credits
-
-### Contributors
-
-Thanks to [all the contributors][contributors] involved in the development of the project!
-
-[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
-<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
-
-### Third-Party Assets
-
-This project is built on the [Jekyll][jekyllrb] ecosystem and some [great libraries][lib], and is developed using [VS Code][vscode] as well as tools provided by [JetBrains][jetbrains] under a non-commercial open-source software license.
-
-The avatar and favicon for the project's website are from [ClipartMAX][clipartmax].
-
-## License
-
-This project is published under [MIT License][license].
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
-[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
-[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
-[jekyllrb]: https://jekyllrb.com/
-[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[lib]: https://github.com/cotes2020/chirpy-static-assets
-[vscode]: https://code.visualstudio.com/
-[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
->>>>>>> 19e581f9b4be674d1f21060864ff3196ad27a56b
+</p>
+<h3>업무처리 능력</h3>
+<p>
+  <img alt="php" src="https://img.shields.io/badge/-php-777BB4?style=flat-square&logo=PHP&logoColor=white" />
+  <img alt="mysql" src="https://img.shields.io/badge/-mysql-8DD6F9?style=flat-square&logo=mysql&logoColor=white" /> 
+  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-46a2f1?style=flat-square&logo=JavaScript&logoColor=white" />
+  <img alt="Java" src="https://img.shields.io/badge/-Java-1a73e8?style=flat-square&logo=Java&logoColor=white" />
+  <img alt="jQuery" src="https://img.shields.io/badge/-jQuery-007ACC?style=flat-square&logo=jQuery&logoColor=white" />
+  <img alt="autohotkey" src="https://img.shields.io/badge/-autohotkey-334455?style=flat-square&logo=autohotkey&logoColor=white" />
+  <img alt="androidstudio" src="https://img.shields.io/badge/-androidstudio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white" />
+  <img alt="delphi" src="https://img.shields.io/badge/-delphi-E62431?style=flat-square&logo=delphi&logoColor=white" />
+  <img alt="centos" src="https://img.shields.io/badge/-centos-262577?style=flat-square&logo=centos&logoColor=white" />  
+  <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img alt="phpmyadmin" src="https://img.shields.io/badge/-phpmyadmin-6C78AF?style=flat-square&logo=phpmyadmin&logoColor=white" />
+  <img alt="mariadb" src="https://img.shields.io/badge/-mariadb-003545?style=flat-square&logo=mariadb&logoColor=white" />
+  <img alt="springboot" src="https://img.shields.io/badge/-springboot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+</p>
