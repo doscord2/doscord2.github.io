@@ -4,12 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>김민호</title>
-  <link rel="stylesheet" href="css/default.css" />
+  <link rel="stylesheet" href="astyle.css" />
 </head>
 <body>
   <div class="container">
     <aside class="sidebar">
-      <img src="img/minho.jpg" alt="프로필 사진" class="profile-img" />
+      <img src="minho.jpg" alt="프로필 사진" class="profile-img" />
       <h1>김민호</h1>
       <p>백엔드 개발자</p>
       <hr/>
@@ -77,11 +77,12 @@
         <h3>(주)엑스메카 - 백엔드 개발자</h3>
         <p>2020.05 ~ 현재</p>
         <ul>
-          <li>PHP 기반 학교홈페이지, 공공기관 홈페이지등 자체 CMS 및 관리자 페이지 설계 및 개발</li>
-          <li>회원가입, 게시판, 파일 업로드 등 주요 기능 직접 구현</li>
+          <li>PHP 기반 학교홈페이지, 공공기관 홈페이지등 <strong>자체 CMS</strong> 및 관리자 페이지 설계 및 개발</li>
+          <li>학교 홈페이지 <strong>체험학습, 결석계, 가정통신문, 온라인전자투표</strong>등 주요 기능 직접 구현</li>
           <li>접근 권한에 따라 관리자와 사용자 기능 분리</li>
-		  <li>DB구조 정의서 작성, ERD작업, 시큐어코딩</li>
-		  <li>OWASP TOP 10,국정원 8대 취약점(XSS, SQL 인젝션, CSRF공격 등)대비 패치</li>
+		  <li><strong>DB구조 정의서 작성, ERD작업, 시큐어코딩</strong></li>
+		  <li>타 언어 제작 사이트 홈페이지 개편시 <strong>마이그레이션</strong> 작업</li>
+		  <li>OWASP TOP 10,국정원 8대 <strong>취약점 패치</strong>(XSS, SQL 인젝션, CSRF공격 등)</li>
         </ul>
 
         <!-- <h3>야놀자 – 백엔드 엔지니어</h3>
@@ -95,52 +96,64 @@
 	<section>
 	  <h2>PROJECT</h2>
 
-	  <div class="project">
-		<p>
-		  <a href="https://www.gen.go.kr/xboard/board.php?mode=login&tbnum=1" target="_blank">광주광역시교육청</a> (2024.08 ~ 2024.12)
-		</p>
-		<h3>모바일신분증 SP 서버 구축 및 홈페이지 인증 연동</h3>
-		<ul>
-		  <li>Java, Spring Boot 기반 SP(Server Provider) 서버 구축</li>
-		  <li>모바일신분증 인증 시스템과 연동하여 홈페이지 로그인 통합</li>
-		  <li>기존 로그인 방식을 개편하고 통합 인증 환경 제공</li>
-		  <li>사용 기술: <strong>Java 1.8, Spring Boot, Maven, JSON, CentOS 7</strong></li>
-		</ul>
-	  </div>
+		<div class="project">
+			<p>
+				<a href="https://www.gen.go.kr/xboard/board.php?mode=login&tbnum=1" target="_blank">광주광역시 교육청</a> (2024.08 ~ 2024.12)
+			</p>
+			<h3>모바일신분증 SP 서버 구축 및 홈페이지 인증 연동</h3>
+			<ul>
+				<li>Java, Spring Boot 기반 SP(Server Provider) 서버 구축</li>
+				<li>모바일신분증 인증 시스템과 연동하여 홈페이지 로그인 통합</li>
+				<li>기존 로그인 방식을 개편하고 통합 인증 환경 제공</li>
+				<li>사용 기술: <strong>Java 1.8, Spring Boot, Maven, JSON, CentOS 7</strong></li>
+			</ul>
+		</div>
 
-	<div class="project">
-	  <p>
-		<a href="https://admission.xmecca.com/gw-samyookms/sinchung/main.php" target="_blank">
-		  광주삼육중학교 입학원서접수시스템
-		</a> (2023.08 ~ 2023.11)
-	  </p>
-	  <h3>사립중학교 입학 원서 접수 사이트 제작 및 KCP 결제 시스템 도입</h3>
-	  <ul>
-		<li>PHP 기반의 사용자 전용 입학 원서 접수 시스템 기획 및 구축</li>
-		<li>KCP PG사를 통한 실시간 카드결제 연동 및 승인 프로세스 구현</li>
-		<li>지원자 정보 등록, 파일 업로드, 접수 내역 확인 기능 구현</li>
-		<li>관리자 페이지를 통해 접수 현황 확인, 엑셀 다운로드, 통계 제공</li>
-		<li>사용 기술: <strong>PHP, MySQL, JavaScript, jQuery, KCP API</strong></li>
-	  </ul>
-	</div>
+		<div class="project">
+			<p>
+				<a href="https://admission.xmecca.com/gw-samyookms/sinchung/main.php" target="_blank">삼육중학교 입학원서접수시스템</a> (2023.08 ~ 2023.11)
+			</p>
+			<h3>사립중학교 입학 원서 접수 사이트 제작 및 KCP 결제 시스템 도입</h3>
+			<ul>
+				<li>PHP 기반의 사용자 전용 입학 원서 접수 시스템 기획 및 구축</li>
+				<li>KCP PG사를 통한 실시간 카드결제 연동 및 승인 프로세스 구현</li>
+				<li>지원자 정보 등록, 파일 업로드, 접수 내역 확인 기능 구현</li>
+				<li>관리자 페이지를 통해 접수 현황 확인, 엑셀 다운로드, 통계 제공</li>
+				<li>사용 기술: <strong>PHP, MySQL, JavaScript, jQuery, KCP API</strong></li>
+			</ul>
+		</div>
 
-	  <div class="project">
-		<p>
-		  <a href="https://jpl.gen.go.kr/xboard/board.php?mode=login&tbnum=24" target="_blank">취업지원센터</a> (2021.10 ~ 2021.12)
-		</p>
-		<h3>채용정보 연동 시스템 구축 및 실명 인증 도입</h3>
-		<ul>
-		  <li>잡코리아, 워크넷 API를 연동하여 채용 공고 자동 수집 및 게시</li>
-		  <li>IPIN 및 드림시큐리티 기반 실명 인증 시스템 도입</li>
-		  <li>PHP 기반의 기존 홈페이지와 연동하여 사용자 편의성 강화</li>
-		  <li>사용 기술:<strong> PHP, JavaScript, jQuery, API 연동, 실명인증 모듈</strong></li>
-		</ul>
-	  </div>
+		<div class="project">
+			<p>
+				<a href="https://jpl.gen.go.kr/xboard/board.php?mode=login&tbnum=24" target="_blank">취업지원센터</a> (2021.09 ~ 2021.12)
+			</p>
+			<h3>채용정보 연동 시스템 구축 및 실명 인증 도입</h3>
+			<ul>
+				<li>잡코리아, 워크넷 API를 연동하여 채용 공고 자동 수집 및 게시</li>
+				<li>IPIN 및 드림시큐리티 기반 실명 인증 시스템 도입</li>
+				<li>PHP 기반의 기존 홈페이지와 연동하여 사용자 편의성 강화</li>
+				<li>사용 기술:<strong> PHP, JavaScript, jQuery, API 연동, 실명인증 모듈</strong></li>
+			</ul>
+		</div>
+
+		<div class="project">
+			<p>
+				<a href="https://www.gjtu.kr/cms/sinchung/index.php" target="_blank">광주교사노동조합</a> (2020.09 ~ 2020.11)
+			</p>
+			<h3>TCPDF와 signature_pad를 활용한 온라인 가입 신청 시스템 구축</h3>
+			<ul>
+				<li>사용자 입력 정보를 기반으로 실시간 PDF 가입신청서 자동 생성</li>
+				<li>signature_pad 라이브러리를 활용한 터치 기반 전자서명 기능 구현</li>
+				<li>서명된 PDF를 서버에 저장 및 관리자 페이지에서 다운로드 가능하도록 처리</li>
+				<li>가입 완료 후 사용자에게 자동 확인 이메일 발송 시스템 연동</li>
+				<li>사용 기술: <strong>PHP, MySQL, TCPDF, signature_pad.js, jQuery</strong></li>
+			</ul>
+		</div>
 	</section>
 
       <section>
         <h2>EDUCATION</h2>
-        <p>2019.10 ~ 2020.04 /한울직업학교 IoT융합 SW개발</p>
+        <p>2019.10 ~ 2020.04 / 한울직업학교 IoT융합 SW개발</p>
         <p>2011.3 ~ 2011.10 / 호남대학교</p>
         <p>2009.3 ~ 2011.2 / 전남공업고등학교</p>
       </section>
