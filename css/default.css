@@ -3,6 +3,8 @@ body {
   font-family: 'Helvetica', sans-serif;
   background: #f9f9f9;
   color: #333;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .container {
@@ -27,6 +29,7 @@ body {
   width: 120px;
   border-radius: 50%;
   margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar h1 {
@@ -75,9 +78,11 @@ body {
 a {
   color: #007acc;
   text-decoration: none;
+  font-weight: 500;
 }
 
 a:hover {
+  color: #005f99;
   text-decoration: underline;
 }
 
@@ -114,7 +119,7 @@ a:hover {
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
   }
 
   .sidebar {
@@ -125,6 +130,6 @@ a:hover {
   }
 
   .content {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
   }
 }
