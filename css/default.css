@@ -55,26 +55,11 @@ body {
 
 .content h2 {
   font-size: 1.8rem;
-  color: #007acc; /* 포인트 색상 */
+  color: #007acc;
   border-bottom: 3px solid #007acc;
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
   font-weight: 700;
-}
-
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  padding-left: 0;
-  list-style: none;
-}
-
-.skills li {
-  background: #efefef;
-  padding: 0.3rem 0.7rem;
-  border-radius: 4px;
-  font-size: 0.9rem;
 }
 
 a {
@@ -88,80 +73,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.skill-category {
-  margin-bottom: 2rem;
-}
-
-.skill-category h3 {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-  color: #555;
-}
-
-.badge-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.badge-group img {
-  height: 24px;
-}
-.footer {
-  text-align: center;
-  font-size: 0.85rem;
-  color: #777;
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid #eee;
-}
-.project {
-  background: #f5f7fa;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1rem 1.2rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease;
-}
-
-.project:hover {
-  transform: translateY(-4px);
-  background: #eef6fb; /* hover 시 살짝 파랗게 */
-}
-
-.project h3 {
-  margin-top: 0.5rem;
-  color: #333;
-  font-size: 1.2rem;
-}
-
-.project p {
-  margin: 0;
-  font-weight: bold;
-  color: #007acc;
-}
-
-.project ul {
-  padding-left: 1.2rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0;
-  list-style-type: disc;
-}
-
-.project ul li {
-  margin-bottom: 0.4rem;
-}
-
-.introduce-section p {
-  background: #f0f4f8;
-  padding: 1rem;
-  border-left: 5px solid #007acc;
-  border-radius: 4px;
-  margin-bottom: 1rem;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
-}
-
+/* --- SKILLS --- */
 .skill-category {
   background: #f9fafc;
   border: 1px solid #ddd;
@@ -177,20 +89,44 @@ a:hover {
   color: #007acc;
 }
 
-.experience-item {
+.badge-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.badge-group img {
+  height: 24px;
+}
+
+/* --- EXPERIENCE / PROJECT / EDUCATION 공통 카드형 박스 --- */
+.project,
+.experience-item,
+.education-item,
+.etc-item {
   background: #f5f7fa;
   border: 1px solid #ddd;
   border-left: 4px solid #007acc;
-  padding: 1rem 1.2rem;
   border-radius: 6px;
-  margin-bottom: 1.5rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease, background 0.2s ease;
 }
 
+.project:hover,
+.experience-item:hover,
+.education-item:hover,
+.etc-item:hover {
+  background: #eaf4fb;
+  transform: translateY(-4px);
+}
+
+/* --- EXPERIENCE --- */
 .experience-item h3 {
-  margin-top: 0;
-  color: #333;
+  margin: 0.5rem 0;
   font-size: 1.2rem;
+  color: #333;
 }
 
 .experience-item p {
@@ -204,28 +140,34 @@ a:hover {
   margin-left: 1.2rem;
 }
 
-.emoji {
-  margin-right: 0.5rem;
+/* --- PROJECT --- */
+.project h3 {
+  margin: 0.5rem 0;
+  color: #333;
+  font-size: 1.2rem;
 }
 
+.project p {
+  margin: 0;
+  font-weight: bold;
+  color: #007acc;
+}
+
+.project ul {
+  padding-left: 1.2rem;
+  margin: 0.5rem 0 0;
+  list-style-type: disc;
+}
+
+.project ul li {
+  margin-bottom: 0.4rem;
+}
+
+/* --- EDUCATION --- */
 .education-list {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-}
-
-.education-item {
-  background: #f5f7fa;
-  border: 1px solid #ddd;
-  border-left: 4px solid #007acc;
-  padding: 1rem;
-  border-radius: 6px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
-  transition: background 0.2s ease;
-}
-
-.education-item:hover {
-  background: #eaf4fb;
 }
 
 .edu-period {
@@ -248,19 +190,10 @@ a:hover {
   color: #555;
 }
 
-.etc-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-}
-
+/* --- ETC --- */
 .etc-item {
-  background: #f0f4f8;
   padding: 0.8rem 1rem;
-  border-left: 4px solid #007acc;
-  border-radius: 5px;
   font-size: 0.95rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 .etc-item a {
@@ -268,15 +201,15 @@ a:hover {
   color: #007acc;
 }
 
-/* 모달 콘텐츠 */
+/* --- MODAL --- */
 .modal {
   display: none;
   position: fixed;
+  inset: 0;
   z-index: 999;
-  inset: 0; /* top, right, bottom, left: 0 */
   background-color: rgba(0, 0, 0, 0.8);
-  justify-content: center; 
-  align-items: center;      
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-link {
@@ -298,7 +231,6 @@ a:hover {
   background: linear-gradient(135deg, #008ee6, #00c3e3);
   box-shadow: 0 4px 10px rgba(0, 122, 204, 0.35);
   transform: translateY(-2px);
-  text-decoration: none;
 }
 
 .modal-link .icon {
@@ -316,10 +248,10 @@ a:hover {
   border-radius: 10px;
   width: 90%;
   max-width: 1200px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  position: relative;
   max-height: 90vh;
   overflow-y: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 
 .close-btn {
@@ -332,6 +264,7 @@ a:hover {
   cursor: pointer;
 }
 
+/* --- MODAL 이미지 --- */
 .modal-images {
   display: flex;
   flex-wrap: wrap;
@@ -340,18 +273,21 @@ a:hover {
 }
 
 .modal-images img {
-  flex: 1 1 48%;         /* 한 줄에 두 개 */
-  width: 48%;            /* 기존보다 커짐 */
-  max-width: 600px;      /* 제한 해제 */
-  height: auto;          /* 비율 유지 */
+  flex: 1 1 48%;
+  width: 48%;
+  max-width: 600px;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
   transition: transform 0.2s ease;
+  object-fit: contain;
 }
 
 .modal-images img:hover {
   transform: scale(1.05);
 }
+
+/* --- 확대 이미지 --- */
 .zoom-overlay {
   display: flex;
   justify-content: center;
@@ -375,7 +311,6 @@ a:hover {
   max-height: 90vh;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
-  object-fit: contain;
   transition: transform 0.3s ease;
 }
 
@@ -384,23 +319,27 @@ a:hover {
   cursor: zoom-out;
 }
 
+/* --- FOOTER --- */
+.footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
 
-
-
+/* --- RESPONSIVE --- */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
     padding: 1.5rem 1rem;
-  }
-  .content section {
-    margin-bottom: 2.5rem;
   }
 
   .sidebar {
     border-right: none;
     border-bottom: 1px solid #eee;
     padding-bottom: 1rem;
-    max-width: none;
   }
 
   .content {
@@ -410,9 +349,11 @@ a:hover {
   .education-item h3 {
     font-size: 1rem;
   }
+
   .education-item p {
     font-size: 0.9rem;
   }
+
   .modal-content {
     width: 95%;
     padding: 1.2rem;
@@ -427,11 +368,10 @@ a:hover {
     width: 100%;
     max-width: 100%;
   }
+
   .zoom-overlay img {
     width: 100%;
     height: auto;
     max-height: 80vh;
   }
 }
-
-
