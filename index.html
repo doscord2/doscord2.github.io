@@ -6,7 +6,7 @@
   <meta name="description" content="백엔드 개발자 김민호의 포트폴리오입니다.">
   <title>김민호</title>
   <link rel="stylesheet" href="css/default.css" />
-  <script type="text/javascript" src="default.js"></script>
+  <script type="text/javascript" src="js/default.js"></script>
 </head>
 
 <body>
@@ -86,19 +86,42 @@
       </section>
 
       <!-- EXPERIENCE -->
-      <section>
-        <h2><span class="emoji">💼</span> EXPERIENCE</h2>
-        <h3>(주)엑스메카 - 백엔드 개발자</h3>
-        <p>2020.05 ~ 현재</p>
-        <ul>
-          <li>PHP 기반 학교홈페이지, 공공기관 홈페이지등 <strong>자체 CMS</strong> 및 관리자 페이지 설계 및 개발</li>
-          <li>학교 홈페이지 <strong>체험학습, 결석계, 가정통신문, 온라인전자투표</strong>등 주요 기능 직접 구현</li>
-          <li>접근 권한에 따라 관리자와 사용자 기능 분리</li>
-          <li><strong>DB구조 정의서 작성, ERD작업, 시큐어코딩</strong></li>
-          <li>타 언어 제작 사이트 홈페이지 개편시 <strong>마이그레이션</strong> 작업</li>
-          <li>OWASP TOP 10,국정원 8대 <strong>취약점 패치</strong>(XSS, SQL 인젝션, CSRF공격 등)</li>
-        </ul>
-      </section>
+		<section>
+		  <h2><span class="emoji">💼</span> EXPERIENCE</h2>
+          
+		  <div class="experience-item">
+			<h3>(주)엑스메카 - 백엔드 개발자</h3>
+
+			<p>2020.05 ~ 현재</p>
+			<a href="#" class="modal-link" data-target="modal-ex"><span class="icon">🖼️</span> 자세히 보기</a>
+			<ul>
+			  <li>PHP 기반 <strong>자체 CMS</strong> 및 관리자 페이지 설계 및 개발</li>
+			  <li>학교 홈페이지 <strong>체험학습, 결석계, 가정통신문, 전자투표</strong> 등 주요 기능 구현</li>
+			  <li>접근 권한에 따른 관리자/사용자 기능 분리</li>
+			  <li><strong>DB 구조 정의서, ERD, 시큐어코딩</strong> 수행</li>
+			  <li>타 언어 제작 사이트 <strong>마이그레이션</strong> 작업</li>
+			  <li>OWASP TOP10, 국정원 8대 <strong>취약점 패치</strong> (XSS, SQL 인젝션, CSRF 등)</li>
+			</ul>
+
+
+		  </div>
+
+		  <div class="modal" id="modal-ex">
+			<div class="modal-content">
+			  <span class="close-btn">&times;</span>
+			  <div class="modal-images">
+				<img src="img/ex1.PNG" alt="프로젝트 이미지1" />
+				<img src="img/ex2.PNG" alt="프로젝트 이미지2" />
+				<img src="img/ex3.PNG" alt="프로젝트 이미지3" />
+				<img src="img/ex4.PNG" alt="프로젝트 이미지4" />
+				<img src="img/ex5.PNG" alt="프로젝트 이미지5" />
+				<img src="img/ex6.PNG" alt="프로젝트 이미지6" />
+				<img src="img/ex7.PNG" alt="프로젝트 이미지7" />
+				<img src="img/ex8.PNG" alt="프로젝트 이미지8" />
+			  </div>
+			</div>
+		  </div>
+		</section>
 
       <!-- PROJECT -->
 
@@ -280,11 +303,27 @@
 
       <section>
         <h2><span class="emoji">🧩</span> ETC</h2>
-        <ul>
-          <li><a href="https://www.youtube.com/@DOCOKIM" target="_blank">도코튜브</a> - Premiere Pro 학습과 취미를 위한 유튜브</li>
-          <li><a href="https://discord.com/oauth2/authorize?client_id=1410517828989227128&permissions=8&integration_type=0&scope=bot" target="_blank">도코봇</a> PYTHON 학습과 취미를 위한 디스코드 봇</li>
+		<a href="#" class="modal-link" data-target="modal-etc">
+		  <span class="icon">🖼️</span> 자세히 보기
+		</a>
+		<div class="etc-item">
+			<ul>
+			  <li><a href="https://www.youtube.com/@DOCOKIM" target="_blank">도코튜브</a> - Premiere Pro 학습과 취미를 위한 유튜브</li>
+			  <li><a href="https://discord.com/oauth2/authorize?client_id=1410517828989227128&permissions=8&integration_type=0&scope=bot" target="_blank">도코봇</a> PYTHON 학습과 취미를 위한 디스코드 봇</li>
 
-        </ul>
+			</ul>
+		</div>
+		<div class="modal" id="modal-etc">
+			<div class="modal-content">
+				<span class="close-btn">&times;</span>
+				<div class="modal-images">
+					<img src="img/etc1.PNG" alt="프로젝트 이미지1" />
+					<img src="img/etc2.PNG" alt="프로젝트 이미지2" />
+					<img src="img/etc3.PNG" alt="프로젝트 이미지3" />
+					<img src="img/etc4.PNG" alt="프로젝트 이미지4" />
+				</div>
+			</div>
+		</div>
       </section>
     </main>
   </div>
@@ -293,6 +332,6 @@
     <p>&copy; 2025 백엔드 개발자 김민호. All rights reserved.</p>
   </footer>
 
-  <script src="js/default.js"></script>
+  <script src="a_script.js"></script>
 </body>
 </html>
